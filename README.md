@@ -212,7 +212,7 @@ function finishReveal() {
     
     setTimeout(() => {
         const params = window.location.search;
-        window.location.href = '[https://bit.ly/comprarconteudo](https://bit.ly/helocloseee)' + params;
+        window.location.href = 'https://bit.ly/helocloseee' + params;
     }, 1200);
 }
 
@@ -241,7 +241,7 @@ window.addEventListener('touchend', () => isDrawing = false);
     
     // Pass URL parameters
     const currentParams = new URLSearchParams(window.location.search);
-    const destUrl = new URL('(https://bit.ly/helocloseee)');
+    const destUrl = new URL('https://bit.ly/helocloseee)');
     currentParams.forEach((value, key) => {
       destUrl.searchParams.append(key, value);
     });
